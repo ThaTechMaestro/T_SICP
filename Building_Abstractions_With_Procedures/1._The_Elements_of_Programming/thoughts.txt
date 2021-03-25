@@ -1,0 +1,36 @@
+It uses a stack to evaluate expressions
+
+Understanding Recursions and Stacks:
+https://www.youtube.com/watch?v=ygK0YON10sQ
+
+Data and Functions/procedures
+
+When a program is loaded into memory
+The machine code for the instructions are stored in the code section
+
+Each data associated with that function is stored in 
+a stack.
+
+A function is loaded into the code section
+That same function creates an activation records
+    for the data it needs to carry out its operations
+
+    The data associated with each function is always
+    created and stored in a stack before executing
+    the instructions specified by a function.
+
+
+    Create the data
+    Execute the instructions
+
+    When a function terminates
+    The data is deleted from the stack
+
+    A runnning function accessed the topmost 
+    activation record in the stack
+
+
+Continue From here
+
+How recursion keeps track of the current function call
+Re look at stacks and get a visual diagram that works perfectly
